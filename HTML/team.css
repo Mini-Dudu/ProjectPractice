@@ -1,0 +1,56 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "微软雅黑", "Times New Roman";
+}
+
+div#table{
+    margin: 0 auto;
+}
+
+
+
+
+div#table {
+    width: 960px;
+    height: 1200px;
+}
+
+div#table p {
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+div#table p.ba1 {
+    font-size: 16px;
+}
+
+div#table p.ba2 {
+    font-size: 12px;
+}
+
+
+div#table p.ba {
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+div#table div#table1 {
+    /*background: url("img/team_F.png") 100px 400px no-repeat;*/
+    height: 400px;
+}
+
+div#table div div {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div#table div div :hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+

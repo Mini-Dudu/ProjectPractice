@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--防盗连接-->
+{{/*    <meta name="referrer" content="no-referrer">*/}}
+    <title>物品栏</title>
+    <link rel="stylesheet" href="article.css">
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            font-family: "微软雅黑", "Times New Roman";
+        }
+        h1{
+            margin-left: 45%;
+            color: red;
+        }
+
+        table{
+            width: 85%;
+            /*border: pink solid 1px;*/
+        }
+        table tr{
+            border-bottom: pink solid 2px;
+            margin-bottom: 5px;
+        }
+
+        table td{
+            border-bottom: pink solid 2px;
+            text-aline:center
+
+        }
+        table tr td img{
+            width: 90px;
+        }
+        .miaoshu{
+            margin-left: 32px;
+        }
+    </style>
+</head>
+<body>
+<h1>物品信息</h1>
+<div id="div0">
+
+    <table>
+        {{range .}}
+            <tr>
+                <td>
+
+                    <img src="{{.IconPath}}"><br>
+                    <span class="name" style="text-align: center; display: block">{{.Name}}</span>
+
+                </td>
+                <td style="border-bottom: none">
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                </td>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <td>
+                    <span class="miaoshu">{{.Description}}</span>
+
+                </td>
+            </tr>
+        {{end}}
+    </table>
+
+
+</div>
+
+</body>
+</html>

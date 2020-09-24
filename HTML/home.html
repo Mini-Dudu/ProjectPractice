@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <title>英雄联盟—英雄信息采集系统</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+            font-family: "微软雅黑", "Times New Roman";
+            background-color: black;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        div#header_top {
+            margin: 0 auto;
+        }
+
+        /*头部css样式*/
+
+        div#header_top {
+            width: 960px;
+            height: 400px;
+            background: url("static/img/lol.jpg") no-repeat 50% center;
+            background-size: 80%;
+
+        }
+
+        div#header_top ul#nav li img {
+            width: 100px;
+            height: 56px;
+        }
+
+
+        div#header_top div {
+            width: 100%;
+            height: 76px;
+            background-color: black;
+        }
+
+        div#header_top div h1 {
+            float: left;
+            width: 64px;
+            height: 20px;
+            line-height: 55px;
+            margin-left: 65px;
+            margin-right: 10px;
+            background-color: black;
+        }
+
+        div#header_top ul#nav {
+            float: left;
+            height: 54px;
+            width: 540px;
+        }
+
+        div#header_top ul#nav a {
+            text-decoration: none;
+        }
+
+        div#header_top ul#nav li {
+            margin-top: 0px;
+            float: left;
+            height: 54px;
+            line-height: 20px;
+            margin-left: 5px;
+            color: yellow;
+        }
+
+        div#header_top ul#nav a li {
+            margin-top: 20px;
+            margin-left: 18px;
+        }
+
+        div#header_top ul#log {
+            height: 54px;
+            float: left;
+
+        }
+
+        .login {
+            border-right: 1px solid yellow;
+            padding: 5px;
+            color: yellow;
+        }
+
+        .login1{
+            color: yellow;
+        }
+
+        div#header_top ul#log li {
+            float: left;
+            height: 54px;
+            line-height: 60px;
+
+        }
+
+        div#header_top ul#log li.open {
+            width: 30px;
+            background-size: 80%;
+        }
+
+        div#bigImg {
+            width: 960px;
+            height: 890px;
+        }
+
+        div#bigImg p {
+            width: 1000px;
+            font-size: 24px;
+            text-align: center;
+            margin: 30px 0;
+            background-color: yellow;
+        }
+
+        div#bigImg div {
+            width: 450px;
+            margin: 0 auto;
+        }
+
+        div#team p {
+            font-size: 12px;
+            border-top: dashed 2px gray ;
+        }
+    </style>
+</head>
+<body>
+<!--页面顶部设置-->
+<div id="header_top">
+    <div>
+        <h1></h1>
+        <ul id="nav">
+            <li><img src="static/img/11.png"></li>
+            <a href="hero_details.html">
+                <li>英雄背景故事</li>
+            </a>
+            <a href="#">
+                <li>英雄皮肤</li>
+            </a>
+            <a href="#">
+                <li>英雄技能介绍</li>
+            </a>
+            <a href="article.html">
+                <li>物品栏</li>
+            </a>
+            <a href="team.html">
+                <li>关于团队</li>
+            </a>
+
+        </ul>
+        <ul id="log">
+            <li class="open"></li>
+            <li class="qq"></li>
+            <li>
+                <a href="register.html" class="login">登录</a>
+                <a href="insufficiency.html" class="login1">注册</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--部分英雄展示-->
+<div id="bigImg">
+    <div>
+        <p>英雄图片展示<br>
+            Hero Picture Display</p>
+        <img src="static/img/1.jpg" width="980" height="500"/>
+        <img src="static/img/2.jpg" width="980" height="500"/>
+        <img src="static/img/3.jpg" width="980" height="500"/>
+        <img src="static/img/4.jpg" width="980" height="500"/>
+        <img src="static/img/5.jpg" width="980" height="500"/>
+    </div>
+    <!--底部团队信息-->
+    <div id="team">
+    <p id="1">&copy;关于团队 ->制作：钟友村，秦梓航 负责人：刘飞跃 指导：于老师<br>
+        ====注：感谢为此做出贡献的全体====<br>
+
+    </p>
+
+    </div>
+</div>
+
+</body>
+</html>

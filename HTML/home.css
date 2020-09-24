@@ -1,0 +1,126 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: "微软雅黑", "Times New Roman";
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+div#header_top {
+    margin: 0 auto;
+}
+
+/*头部css样式*/
+
+div#header_top {
+    width: 960px;
+    height: 400px;
+    background: url("img/lol.jpg") no-repeat 50% center;
+    background-size: 80%;
+
+}
+
+div#header_top ul#nav li img {
+    width: 100px;
+    height: 56px;
+}
+
+
+div#header_top div {
+    width: 100%;
+    height: 76px;
+    background-color: black;
+}
+
+div#header_top div h1 {
+    float: left;
+    width: 64px;
+    height: 20px;
+    line-height: 55px;
+    margin-left: 65px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+div#header_top ul#nav {
+    float: left;
+    height: 54px;
+    width: 540px;
+}
+
+div#header_top ul#nav a {
+    text-decoration: none;
+}
+
+div#header_top ul#nav li {
+    margin-top: 0px;
+    float: left;
+    height: 54px;
+    line-height: 20px;
+    margin-left: 5px;
+    color: yellow;
+}
+
+div#header_top ul#nav a li {
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+div#header_top ul#log {
+    height: 54px;
+    float: left;
+
+}
+
+.login {
+    border-right: 1px solid yellow;
+    padding: 5px;
+    color: yellow;
+}
+
+.login1{
+    color: yellow;
+}
+
+div#header_top ul#log li {
+    float: left;
+    height: 54px;
+    line-height: 60px;
+
+}
+
+div#header_top ul#log li.open {
+    width: 30px;
+    background-size: 80%;
+}
+
+div#bigImg {
+    width: 960px;
+    height: 890px;
+}
+
+div#bigImg p {
+    width: 1000px;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0;
+    background-color: yellow;
+}
+
+div#bigImg div {
+    width: 450px;
+    margin: 0 auto;
+}
+
+div#team p {
+    font-size: 12px;
+    border-top: dashed 2px gray ;
+}
+
+
+
